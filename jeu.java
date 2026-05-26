@@ -67,7 +67,5 @@ public class jeu {
         enCours = false;
     }
 
-    public void regles() {
-    System.out.println("Trouve l'imposteur parmi les suspects !");
-    }
+    
 }   

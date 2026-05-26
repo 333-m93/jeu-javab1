@@ -1,7 +1,11 @@
-
 public class main {
+
     public static void main(String[] args) {
-        jeu jeu = new jeu();
-        jeu.demarrer();
+
+        // Création du menu d'accueil
+        accueil accueil = new accueil();
+
+        // Lancement du menu principal
+        accueil.afficherMenu();
     }
 }
